@@ -12,6 +12,7 @@ h1{
     font-weight:lighter;
     font-style:italic;
     font-weight:bolder;
+    text-align: center;
 }
 
 h2{
@@ -49,6 +50,7 @@ footer, header{
     font-style: italic;
     width:50%;
     margin-left:25%;
+    text-align: center;
 }
 
 .recording{
@@ -65,14 +67,18 @@ footer, header{
     width: 450px;
     margin:auto;
     margin-bottom:2%;
-    padding: 1px 10% 1% 5%;
+    padding: 1px 0 1% 0;
     border: 5px solid grey;
     border-style:double;
+    text-align: center;
     
 }
 
 #icecream{
     margin: 1em 1em 0em 2em;
-    padding-right: 4em
+    padding-right: 4em  
 }
 
+button:hover {
+    color: rgb(255, 0, 0);
+}
