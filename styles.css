@@ -117,6 +117,9 @@ button:active {
     color: green;
 }
 
+input:hover{
+    color: green;
+}
 .qa{
     display:inline;
 }
@@ -138,5 +141,22 @@ button:active {
 
 .container > * {
     flex: 1 1 auto;
-  }
-  
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(4, 20px);
+    grid-template-rows: repeat(4, 20px);
+    grid-template-areas:
+        "seven eight nine multiply"
+        "four five six minus"
+        "one two three plus"
+        ". zero decimal equal";
+    column-gap: 10px;
+    row-gap:15px;
+    justify-items: center;
+    align-items: center;
+        
+
+
+}
