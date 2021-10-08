@@ -23,12 +23,14 @@ h2{
 }
 
 footer, header{
-    color:rgb(200, 10, 10);
+    color:rgb(0, 195, 255);
+    text-align: center;
 }
 
 .special{
     color: #13ffd8fa;
     font-style:italic;
+    display: none;
 }
 
 .important{
@@ -81,4 +83,8 @@ footer, header{
 
 button:hover {
     color: rgb(255, 0, 0);
+}
+
+.qa{
+    display:inline;
 }
