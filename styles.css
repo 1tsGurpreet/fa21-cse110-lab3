@@ -7,6 +7,17 @@
 }
 */
 
+#media{
+    text-align: center;
+}
+
+
+@media (max-width: 50rem) {
+    #media {
+      border: 10px solid green;
+    }
+}
+
 #linklist{
     height: 250px;
     width: 1080px;
