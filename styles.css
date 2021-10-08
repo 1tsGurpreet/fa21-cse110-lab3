@@ -7,6 +7,17 @@
 }
 */
 
+#linklist{
+    height: 250px;
+    width: 1080px;
+}
+
+img{
+    max-height: 1920px;
+    max-width: 1080px;
+}
+
+
 h1{
     color:blue;
     font-weight:lighter;
