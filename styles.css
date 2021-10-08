@@ -36,10 +36,22 @@ header{
 
 .box{
     background-color:#333D3D;
-    color:white;    
+    color:white;
+    margin-left:1in;
+    margin-right:1in;
 }
 
 .caption{
     color:white;
     font-style: italic;
+    width:50%;
+    margin-left:25%;
+}
+
+.recording{
+    margin-top:1%;
+}
+
+.video{
+    margin-bottom:10px;
 }
