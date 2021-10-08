@@ -33,3 +33,13 @@ header{
 .important{
     color: hsl(32, 100, 45);
 }
+
+.box{
+    background-color:#333D3D;
+    color:white;    
+}
+
+.caption{
+    color:white;
+    font-style: italic;
+}
