@@ -6,3 +6,15 @@
     font-weight: bold;
 }
 */
+
+h1{
+    color:blue;
+    font-weight:lighter;
+    font-style:italic;
+}
+
+h2{
+    color:cornflowerblue;
+    font-weight: lighter;
+    font-style:normal;
+}
