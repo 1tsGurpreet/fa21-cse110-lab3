@@ -168,7 +168,45 @@ input:hover{
     row-gap:15px;
     justify-items: center;
     align-items: center;
-        
+}
 
+*{
+    font-weight:lighter;
+}
 
+a[href$=".com"] {
+    font-style:italic;
+  }
+
+ul li{
+    background-color: blue;
+    width:100px;    
+}
+
+section > div{
+    font-family:fantasy;
+    text-align: center;
+}
+
+div ~ p {
+    background-color: yellow;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+section + li{
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+
+.red{
+    color: red;
+}
+.blue{
+    background:blue;
+}
+
+.red.blue{
+    text-align: center;
 }
