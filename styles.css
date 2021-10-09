@@ -1,11 +1,10 @@
 /*My first crack at CSS WOOOOOOOOOO*/
 
 /*
-.special{
-    color: orange;
-    font-weight: bold;
-}
+font-family: 'Akronim', cursive;
+font-family: 'Ephesis', cursive;
 */
+
 
 #media{
     text-align: center;
@@ -52,13 +51,15 @@ h1{
     font-style:italic;
     font-weight:bolder;
     text-align: center;
+    font-family: 'Ephesis', cursive;
 }
 
 h2{
     color:cornflowerblue;
     font-weight: lighter;
     font-style:normal;
-    font-weight:900;
+    font-size: 1cm;
+    font-family: 'Akronim', cursive;
 }
 
 footer, header{
