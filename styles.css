@@ -200,13 +200,7 @@ section + li{
     color: white;
 }
 
-.red{
-    color: red;
-}
-.blue{
-    background:blue;
-}
-
-.red.blue{
+#test.callout{
     text-align: center;
+    color:blue;
 }
